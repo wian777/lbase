@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Lademittels>
+  <Lademittel Code="FP" de="Euro-Flachpalette" en="Euro pallet"></Lademittel>
+  <Lademittel Code="GP" de="Gitterbox" en="wire cage"></Lademittel>
+</Lademittels>

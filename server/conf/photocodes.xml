@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PhotoCodes>
+  <PhotoCode Code="UF" Type="1" de="Unfallfoto" en="Accident foto"></PhotoCode>
+  <PhotoCode Code="STZ" Type="1" de="Strafzettel" en="Traffic ticket"></PhotoCode>
+  <PhotoCode Code="DO" Type="1" de="Dokument" en="Document"></PhotoCode>
+  <PhotoCode Code="CMR" Type="2" de="Dokument CMR" en="document CMR"></PhotoCode>
+  <PhotoCode Code="LFS" Type="2" de="Dokument Lieferschein" en="document Delivery note"></PhotoCode>
+  <PhotoCode Code="SF" Type="2" de="Schadensfoto" en="damage picture"></PhotoCode>
+  <PhotoCode Code="SZ" Type="2" de="sonstiges Zustellhindernis" en="other picture"></PhotoCode>
+  <PhotoCode Code="XX" Type="3" de="Packstückschaden" en="colli damage picture"></PhotoCode>
+</PhotoCodes>

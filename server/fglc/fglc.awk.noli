@@ -1,0 +1,2 @@
+#  2010.03.26 rune:  awk script "compile without line_numbers" 
+{	print $0; }

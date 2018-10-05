@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo $'PID\tSTATE\tUSER\tSTART\tCPU%\tCPU\t\t%MEM\tRSSKB\tVIRTKB\tWCHAN\tCMD\n'
+
+ps -m -C java -o "pid,state,user,start_time,c,cputime,%mem,rss,vsz,wchan,cmd" --width 1000 \
+| sed -e 's/ \+/\t/g' \
+| sed -e 's/^[ \t]\+//' \
+| grep "eu\.lbase\.lis\.app.*\.jar" \
+| sed G 
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -f lila.inc ]
+then
+	. ./lila.inc
+else
+	. ${TRFL}/java/lila.inc
+fi
+
+${JRE_EXE} -cp ${TRFL}/java/${LI_JAR} eu.lbase.lis.app.tools.LirunCtrl "$@"

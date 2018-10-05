@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StatusCodes>
+  <StatusCode Code="001" Type="1" de="Auf Fahrt" en="On Tour" Color="#0094FF" Tracking="1"></StatusCode>
+  <StatusCode Code="002" Type="1" de="Stau" en="Traffic jam" Color="#FF0000" Tracking="1"></StatusCode>
+  <StatusCode Code="003" Type="1" de="Entladung" en="Unloading" Color="#FFA500" Tracking="1"></StatusCode>
+  <StatusCode Code="004" Type="1" de="Pause" en="Break" Color="#00FF21" Tracking="0"></StatusCode>  
+  <StatusCode Code="012" Type="2" de="OK" en="OK" Color="#00FF21" Level="0"></StatusCode>
+  <StatusCode Code="070" Type="2" de="Zugestellt mit Beschädigung" en="Delivered with damage" Color="#FF0000" Level="0"></StatusCode>
+  <StatusCode Code="069" Type="2" de="Zugestellt mit Teilfehlmenge" en="Delivered - Partially delivered" Color="#FF0000" Level="0"></StatusCode>
+  <StatusCode Code="082" Type="2" de="AV - Liefertermin überschritten" en="Not delivered - rejected/delivery date exceeded" Color="#FF0000" Level="0"></StatusCode>
+  <StatusCode Code="005" Type="2" de="nicht in Zustellung - Platzmangel" en="Not dispatched - Capacity problems on deliv. route" Color="#FFA500" Level="0"></StatusCode>
+  <StatusCode Code="290" Type="3" de="Abholung erledigt" en="pickup finished" Color="#00FF21" Level="0"></StatusCode>
+  <StatusCode Code="220" Type="3" de="Ware nicht abholbereit" en="Goods not ready" Color="#FF0000" Level="0"></StatusCode>
+  <StatusCode Code="270" Type="3" de="Ware nicht abgeholt" en="no pickup of goods" Color="#FFA500" Level="0"></StatusCode>
+  <StatusCode Code="001" Type="4" de="Packstück OK" en="package OK" Color="#00FF21" Level="0"></StatusCode>
+  <StatusCode Code="005" Type="4" de="Packstück fehlt" en="package missing" Color="#FF0000" Level="0"></StatusCode>
+  <StatusCode Code="011" Type="4" de="Packstück verbogen" en="package is bent" Color="#FFA500" Level="0"></StatusCode>
+</StatusCodes>
